@@ -1,208 +1,217 @@
 .Login-Container {
-    width: 100%;
-    height: 100vh;
-    background-color: #E9F2F7 !important;
+  width: 100%;
+  height: 100vh;
+  background-color: #e9f2f7 !important;
 }
 
 .Login-Container .Login-Header {
-    width: 100%;
-    height: 50px;
-    background: #3778A2;
-    
-    
+  width: 100%;
+  height: 50px;
+  background: #3778a2;
+}
+
+.Login-toLogin p {
+  color: white;
 }
 .Login-Container .Login-card {
-    width: 100%;
-    height: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: left;
-    background: #3778A2;
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  background: white;
 }
 .Login-Container .Login-card .Login-form {
-    width: 30%;
-    padding: 0 50px 50px 50px;
-    background-color: white;
-    -webkit-box-shadow: 0px 0px 36px -25px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 36px -25px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 36px -25px rgba(0,0,0,0.75);
-    min-height: 30%;
+  width: 30%;
+  padding: 0 50px 50px 50px;
+  background-color: #005880;
+  -webkit-box-shadow: 0px 0px 36px -25px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 36px -25px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 36px -25px rgba(0, 0, 0, 0.75);
+  min-height: 30%;
 }
 
 .Login-card button {
+  text-align: center;
+  width: 100%;
+  margin-top: 10%;
+  background: #3778a2;
+  color: aliceblue;
+  border-radius: 5px;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  border: none;
+  padding: 5px;
+}
+
+.Login-card button:focus {
+  outline: none;
+}
+.Login-card button:active {
+  background-color: #3d82b1;
+}
+
+.Login-Container .Login-card .Login-form .Login-title {
+  width: 80%;
+  font-size: 1.2em;
+  color: white;
+}
+.Login-Container .Login-card .Login-form form .inputBox {
+  width: 100%;
+  margin: 0;
+  font-size: 12px;
+}
+
+input:-internal-autofill-selected {
+  background-color: red !important;
+  color: #005880 !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+.Login-Container .Login-card .Login-form form .inputBox p {
+  color: whitesmoke;
+  margin-block-start: 10px;
+  margin-block-end: 10px;
+}
+
+.Login-Container .Login-card .Login-form form .inputBox input {
+  width: 100%;
+  border-style: outset;
+  border-width: 1px;
+  border: none;
+  border-bottom: white 1.5px solid;
+  color: white;
+  font-weight: 700;
+  background: none;
+}
+
+.Login-Container .Login-card .Login-form form .inputBox input:onfocus {
+  background-color: transparent;
+}
+
+.pwbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pwbox .eyeicon {
+  color: white;
+  font-size: 2em;
+  margin-left: -20px;
+  margin-bottom: 20px;
+}
+
+.confirm-pwbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.confirm-pwbox .eyeicon {
+  color: white;
+  font-size: 2em;
+  margin-left: -20px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1024px) {
+  .Login-Container .Login-card .Login-form {
+    width: 40%;
+    padding: 0 50px 50px 50px;
+    box-shadow: 0px 0px 36px -25px rgb(0 0 0 / 75%);
+    min-height: 30%;
+  }
+}
+
+@media (max-width: 768px) {
+  .Login-Container .Login-card .Login-form {
+    width: 50%;
+    padding: 0 50px 50px 50px;
+
+    box-shadow: 0px 0px 36px -25px rgb(0 0 0 / 75%);
+    min-height: 30%;
+  }
+}
+@media (max-width: 530px) {
+  .Login-Container .Login-card .Login-form {
+    width: 100%;
+    height: 100%;
+    padding: 0 50px 50px 50px;
+
+    box-shadow: 0px 0px 36px -25px rgb(0 0 0 / 75%);
+    min-height: 30%;
+  }
+}
+
+@media (max-width: 1440px) and (max-height: 600px) {
+  .Login-Container .Login-card .Login-form {
+    width: 40%;
+    padding: 0 20px 20px 20px;
+
+    box-shadow: 0px 0px 36px -25px rgb(0 0 0 / 75%);
+    display: flex;
+    justify-content: center;
+  }
+
+  .Login-card button {
     text-align: center;
     width: 100%;
-    margin-top: 10%;
-    background: #3778A2;
+    margin-top: 0;
+    background: #3778a2;
     color: aliceblue;
     border-radius: 5px;
     font-size: 1.2em;
     text-transform: uppercase;
     border: none;
     padding: 5px;
+  }
 }
 
-.Login-card button:focus {
-    outline: none;
-}
-.Login-card button:active {
-    background-color: #3d82b1;
+@media (max-width: 1024px) and (max-height: 600px) {
+  .Login-Container {
+    background: #3778a2;
+  }
+  .Login-Container .Login-card .Login-form {
+    width: 60%;
+  }
+
+  .Login-Container .Login-Header {
+    height: 20px;
+  }
 }
 
-.Login-Container .Login-card .Login-form .Login-title {
-    width: 80%;
-    font-size: 1.2em;
-    color: #3778A2;
+@media (max-width: 768px) and (max-height: 580px) {
+  .Login-Container {
+    background: #3778a2 !important;
+  }
+  .Login-Container .Login-card .Login-form {
+    width: 60%;
+  }
+
+  .Login-Container .Login-Header {
+    height: 20px;
+  }
 }
-.Login-Container .Login-card .Login-form form .inputBox{
+
+@media (max-width: 530px) and (max-height: 650px) {
+  .Login-Container {
+    background: #3778a2 !important;
+  }
+  .Login-Container .Login-card .Login-form {
     width: 100%;
-    margin: 0;
-    font-size: 12px;
+    display: block;
+    height: 100%;
+  }
 
-}
-
-.Login-Container .Login-card .Login-form form .inputBox p {
-    color: gray;
-    margin-block-start: 10px;
-    margin-block-end: 10px;
-}
-
-.Login-Container .Login-card .Login-form form .inputBox input {
-    width: 100%;
-    border-style: outset;
-    border-width: 1px;
-    border: none;
-    border-bottom: #3778A2 1.5px solid;
-    color: #3778A2;
-    font-weight: 700;
-}
-
-.pwbox {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.pwbox .eyeicon {
-    font-size: 2em;
-    margin-left: -20px;
-    margin-bottom: 20px;
-}
-
-.confirm-pwbox {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.confirm-pwbox .eyeicon {
-    font-size: 2em;
-    margin-left: -20px;
-    margin-bottom: 20px;
-}
-
-@media (max-width: 1024px) {
-    .Login-Container .Login-card .Login-form {
-        width: 40%;
-        padding: 0 50px 50px 50px;
-        background-color: white;
-        box-shadow: 0px 0px 36px -25px rgb(0 0 0 / 75%);
-        min-height: 30%;
-    }
-} 
-
-@media (max-width: 768px) {
-    .Login-Container .Login-card .Login-form {
-        width: 50%;
-        padding: 0 50px 50px 50px;
-        background-color: white;
-        box-shadow: 0px 0px 36px -25px rgb(0 0 0 / 75%);
-        min-height: 30%;
-    }
-} 
-@media (max-width: 530px) {
-    .Login-Container .Login-card .Login-form {
-        width: 100%;
-        height: 100%;
-        padding: 0 50px 50px 50px;
-        background-color: white;
-        box-shadow: 0px 0px 36px -25px rgb(0 0 0 / 75%);
-        min-height: 30%;
-    }
-} 
-
-
-@media (max-width:1440px) and (max-height: 600px) {
-    .Login-Container .Login-card .Login-form {
-        width: 40%;
-        padding: 0 20px 20px 20px;
-        background-color: white;
-        box-shadow: 0px 0px 36px -25px rgb(0 0 0 / 75%);
-        display: flex;
-        justify-content: center;
-        
-    }
-
-    .Login-card button {
-        text-align: center;
-        width: 100%;
-        margin-top: 0;
-        background: #3778A2;
-        color: aliceblue;
-        border-radius: 5px;
-        font-size: 1.2em;
-        text-transform: uppercase;
-        border: none;
-        padding: 5px;
-    }
-} 
-
-@media (max-width:1024px) and (max-height: 600px) {
-    .Login-Container {
-        background: #3778A2;
-    }
-    .Login-Container .Login-card .Login-form {
-        width: 60%; 
-        
-    }
-
-    .Login-Container .Login-Header {
-     
-        height: 20px;
-    
-    }
-}
-
-@media (max-width:768px) and (max-height: 580px) {
-    .Login-Container {
-        background: #3778A2 !important;
-    }
-    .Login-Container .Login-card .Login-form {
-        width: 60%; 
-        
-    }
-
-    .Login-Container .Login-Header {
-     
-        height: 20px;
-    
-    }
-}
-
-@media (max-width:530px) and (max-height: 650px) {
-    .Login-Container {
-        background: #3778A2 !important;
-    }
-    .Login-Container .Login-card .Login-form {
-        width: 100%; 
-        display: block;
-        height: 100%;
-    }
-
-    .Login-Container .Login-Header {
-     
-        height: 50px;
-    
-    }
+  .Login-Container .Login-Header {
+    height: 50px;
+  }
 }
