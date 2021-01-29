@@ -1,0 +1,237 @@
+
+
+.Verify-Container {
+    width: 100%;
+    height: 100vh;
+    background-color: #E9F2F7 !important;
+    --ReactInputVerificationCode-itemWidth: 2.5em
+}
+
+.Verify-Container .Verify-Header {
+    width: 100%;
+    height: 50px;
+    background: #3778A2;
+    
+    
+}
+
+.css-1jkbsv7 {
+    width: 100% !important;
+}
+
+.css-jxah1j {
+    border-radius: 20px !important;
+    box-shadow: inset 0 0 0 1px #3778A2 !important;
+    color: #3778A2;
+
+}
+
+.ReactInputVerificationCode__input .ReactInputVerificationCode__item {
+    
+}
+#verify-block {
+    width: 100%;
+    
+}
+
+.Verify-Container .Verify-card {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    background: #3778A2;
+}
+
+.Verify-toLogin p {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.Verify-request-code {
+    display: flex;
+}
+
+.Verify-request-code p {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.Verify-timer {
+    display: flex;
+}
+.Verify-Container .Verify-card .Verify-form {
+    width: 30%;
+    padding: 0 50px 50px 50px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 36px -25px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 36px -25px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 36px -25px rgba(0,0,0,0.75);
+    min-height: 30%;
+}
+
+.Verify-card button {
+    text-align: center;
+    width: 100%;
+    margin-top: 10%;
+    background: #3778A2;
+    color: aliceblue;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    border: none;
+    padding: 5px;
+}
+
+.Verify-card button:focus {
+    outline: none;
+}
+.Verify-card button:active {
+    background-color: #3d82b1;
+}
+
+.Verify-Container .Verify-card .Verify-form .Verify-title {
+    width: 80%;
+    font-size: 1.2em;
+    color: #3778A2;
+}
+.Verify-Container .Verify-card .Verify-form form .inputBox{
+    width: 100%;
+    margin: 0;
+    font-size: 12px;
+
+}
+
+.Verify-Container .Verify-card .Verify-form form .inputBox p {
+    color: gray;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+}
+
+.Verify-Container .Verify-card .Verify-form form .inputBox input {
+    width: 100%;
+    border-style: outset;
+    border-width: 1px;
+    border: none;
+    border-bottom: #3778A2 1.5px solid;
+    color: #3778A2;
+    font-weight: 700;
+}
+
+.pwbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pwbox .eyeicon {
+    font-size: 2em;
+    margin-left: -20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1024px) {
+    .Verify-Container .Verify-card .Verify-form {
+        width: 40%;
+        padding: 0 50px 50px 50px;
+        background-color: white;
+        box-shadow: 0px 0px 36px -25px rgb(0 0 0 / 75%);
+        min-height: 30%;
+    }
+} 
+
+@media (max-width: 768px) {
+    .Verify-Container .Verify-card .Verify-form {
+        width: 50%;
+        padding: 0 50px 50px 50px;
+        background-color: white;
+        box-shadow: 0px 0px 36px -25px rgb(0 0 0 / 75%);
+        min-height: 30%;
+    }
+} 
+@media (max-width: 530px) {
+    .Verify-Container .Verify-card .Verify-form {
+        width: 100%;
+        height: 100%;
+        padding: 0 50px 50px 50px;
+        background-color: white;
+        box-shadow: 0px 0px 36px -25px rgb(0 0 0 / 75%);
+        min-height: 30%;
+    }
+} 
+
+
+@media (max-width:1440px) and (max-height: 600px) {
+    .Verify-Container .Verify-card .Verify-form {
+        width: 40%;
+        padding: 0 20px 20px 20px;
+        background-color: white;
+        box-shadow: 0px 0px 36px -25px rgb(0 0 0 / 75%);
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .Verify-card button {
+        text-align: center;
+        width: 100%;
+        margin-top: 0;
+        background: #3778A2;
+        color: aliceblue;
+        border-radius: 5px;
+        font-size: 1.2em;
+        text-transform: uppercase;
+        border: none;
+        padding: 5px;
+    }
+} 
+
+@media (max-width:1024px) and (max-height: 600px) {
+    .Verify-Container {
+        background: #3778A2;
+    }
+    .Verify-Container .Verify-card .Verify-form {
+        width: 60%; 
+        
+    }
+
+    .Verify-Container .Verify-Header {
+     
+        height: 20px;
+    
+    }
+}
+
+@media (max-width:768px) and (max-height: 580px) {
+    .Verify-Container {
+        background: #3778A2 !important;
+    }
+    .Verify-Container .Verify-card .Verify-form {
+        width: 60%; 
+        
+    }
+
+    .Verify-Container .Verify-Header {
+     
+        height: 20px;
+    
+    }
+}
+
+@media (max-width:530px) and (max-height: 650px) {
+    .Verify-Container {
+        background: #3778A2 !important;
+    }
+    .Verify-Container .Verify-card .Verify-form {
+        width: 100%; 
+        display: block;
+        height: 100%;
+    }
+
+    .Verify-Container .Verify-Header {
+     
+        height: 50px;
+    
+    }
+}

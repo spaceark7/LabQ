@@ -1,0 +1,83 @@
+.newsCard {
+    height: 400px;
+    width: 350px;
+    background-color: white;
+}
+
+.newsCard .newsImg {
+    height: 65%;
+    width: 100%;
+}
+
+.newsCard .newsImg img {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    object-fit: contain;
+    object-position: 60% 60%;
+}
+
+.newsCard .newsText {
+    width: 100%;
+    height: 20%;
+    background-color: white;
+}
+
+.newsCard .newsText h2 {
+    color: #568EB0;
+    margin-bottom: 0;
+    padding-left: 20px;
+}
+
+.newsCard .newsText p {
+    font-size: 1.2em;
+    width: 90%;
+    padding-left: 20px;
+    text-align: left;
+    height: 100%;
+    margin-top: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+@media (max-width: 1024px) {
+    .newsCard {
+        height: 300px;
+        width: 260px;
+    }
+}
+
+@media (max-width: 768px) {
+    .newsCard {
+        height: 250px;
+        width: 200px;
+    }
+
+    .newsCard .newsText h2 {
+        font-size: 1em;
+    }
+
+    .newsCard .newsText p {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 530px) {
+    .newsCard {
+        height: 100px;
+        width: 80px;
+    }
+
+    .newsCard .newsText h2 {
+        margin-top: 0;
+        font-size: 12px;
+        padding-left: 5px;
+    }
+
+    .newsCard .newsText p {
+        margin-top: 0;
+        font-size: 10px;
+        padding-left: 5px;
+    }
+}

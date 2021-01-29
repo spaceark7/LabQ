@@ -1,0 +1,21 @@
+.mainPage-container {
+    position: relative;
+   display: flex;
+   flex-direction: column;
+   
+   align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #E9F2F7 !important;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px ;
+   
+}
+
+@media (prefers-color-scheme: light) {
+    .mainPage-container {
+        background: #E9F2F7 ;
+    }
+}

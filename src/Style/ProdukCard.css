@@ -1,0 +1,22 @@
+.card {
+   
+    width: 200px;
+    transition: 0.7s;
+}
+
+
+
+.card-image img {
+    height: 60px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #3D7A8A;
+    transform: translateY(0);
+    transition: 1s;
+}
+
+.card:hover .card-image img {
+    transform: translateY(-5%);
+    transition: 0.7s;
+}
+
